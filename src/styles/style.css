@@ -48,6 +48,10 @@ body {
   font-size: 34px;
 }
 
+.text-orange {
+  color: var(--color-main);
+}
+
 .content {
   position: relative;
 
@@ -109,6 +113,8 @@ body {
   text-decoration: none;
 }
 
+/** HEADER **/
+
 .header {
   overflow: hidden;
 }
@@ -116,7 +122,7 @@ body {
 .header-block {
   position: relative;
 
-  padding-bottom: 198px;
+  padding-bottom: 196px;
 }
 
 .header-block::before {
@@ -130,4 +136,8 @@ body {
   background: url('../images/main.png') no-repeat top right/auto 100%;
 
   content: '';
+}
+
+.header .title-level1 {
+  position: relative;
 }
