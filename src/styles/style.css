@@ -73,6 +73,10 @@ body {
   padding: 100px 0;
 }
 
+.content-fix-padding {
+  padding-bottom: 85px; /* perfect pixel image block */
+}
+
 .bg-image {
   position: relative;
 }
@@ -104,6 +108,10 @@ body {
   background: var(--color-brown);
 }
 
+.bg-white {
+  background: var(--color-white);
+}
+
 .column {
   column-count: 2;
   column-gap: 30px;
@@ -114,7 +122,6 @@ body {
   margin: 0 0 20px 0;
   padding: 5px 10px;
 
-  color: var(--color-white);
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
@@ -124,6 +131,10 @@ body {
 
 .column p {
   margin-top: 0;
+}
+
+.column p:last-child {
+  margin-bottom: 0;
 }
 
 .btn {
@@ -277,7 +288,7 @@ a.menu-item:hover > .title {
 }
 
 .image-content + .image-block {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 
 .image-shadow {
