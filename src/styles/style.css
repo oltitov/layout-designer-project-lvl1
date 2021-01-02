@@ -68,6 +68,10 @@ body {
   color: var(--color-brown);
 }
 
+.text-blue {
+  color: var(--color-blue);
+}
+
 .content {
   position: relative;
 
@@ -75,6 +79,10 @@ body {
 
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.content-center {
+  text-align: center;
 }
 
 .content-fix-padding {
@@ -195,10 +203,6 @@ body {
 
 /** VIDEO **/
 
-.video {
-  text-align: center;
-}
-
 .video-text {
   margin: 30px 0;
 }
@@ -313,4 +317,86 @@ a.menu-item:hover > .title {
 
 .image-text {
   letter-spacing: 0;
+}
+
+/** FOOTER **/
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 45px 55px;
+}
+
+.form {
+  width: 485px;
+}
+
+.form-title {
+  display: block;
+  padding-bottom: 9px;
+
+  font-size: 18px;
+  line-height: 1;
+}
+
+.form-item {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.form-input {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0 15px;
+
+  font-size: 13px;
+
+  border: 1px solid var(--color-white-opacity);
+
+  outline: none;
+}
+
+.form-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 65px;
+  margin: 0;
+  padding: 0;
+
+  background: var(--color-main);
+
+  border: none;
+
+  cursor: pointer;
+
+  transition: background 0.5s;
+}
+
+.form-submit:hover {
+  background: var(--color-main-hover);
+}
+
+.form-submit::before {
+  width: 24px;
+  height: 24px;
+
+  content: url(../images/send.svg);
+}
+
+.form-policy {
+  margin: 0;
+  padding: 0;
+
+  font-size: 12px;
+}
+
+.footer-text {
+  padding: 60px 0 0 0;
+
+  font-size: 14px;
 }
