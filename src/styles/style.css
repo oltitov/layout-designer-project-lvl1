@@ -56,6 +56,10 @@ body {
   color: var(--color-white);
 }
 
+.text-white-opacity {
+  color: var(--color-white-opacity);
+}
+
 .text-dark-opacity {
   color: var(--color-dark-opacity);
 }
