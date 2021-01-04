@@ -90,6 +90,7 @@ body {
 
 .bg-image {
   position: relative;
+
   overflow: hidden;
 }
 
@@ -275,6 +276,7 @@ a.menu-item:hover > .title {
 .menu-title {
   color: var(--color-white);
   font-size: 52px;
+  letter-spacing: -0.5px;
 }
 
 .menu-count {
@@ -408,7 +410,6 @@ a.menu-item:hover > .title {
 
   font-size: 14px;
 }
-
 
 /** test... **/
 
