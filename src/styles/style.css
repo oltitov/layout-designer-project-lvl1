@@ -85,7 +85,7 @@ body {
 }
 
 .content-fix-padding {
-  padding-bottom: 85px; /* perfect pixel image block */
+  padding-bottom: 83px; /* perfect pixel image block */
 }
 
 .bg-image {
@@ -226,7 +226,7 @@ body {
 /** NAVIGATION **/
 
 .navigation {
-  padding-top: 81px; /** margin-top .menu **/
+  padding-top: 80px; /** margin-top .menu **/
 }
 
 /** grid ? **/
@@ -404,7 +404,18 @@ a.menu-item:hover > .title {
 }
 
 .footer-text {
-  padding: 60px 0 0 0;
+  padding: 59px 0 0 0;
 
   font-size: 14px;
+}
+
+
+/** test... **/
+
+#premature-optimization .content {
+  padding-bottom: 91px;
+}
+
+#errors-in-planning .content {
+  padding-bottom: 90px;
 }
