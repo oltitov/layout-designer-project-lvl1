@@ -425,8 +425,3 @@ a.menu-item:hover > .title {
   font-size: 14px;
 }
 
-/** test... **/
-
-#premature-optimization .content {
-  padding-bottom: 83px;
-}
