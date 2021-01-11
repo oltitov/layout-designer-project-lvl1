@@ -442,5 +442,5 @@ h2:not(.title) + ul {
 }
 
 h2:not(.title) + ul + p {
-  margin: 15px 0 32px 0;
+  margin: 15px 0 16px 0;
 }
