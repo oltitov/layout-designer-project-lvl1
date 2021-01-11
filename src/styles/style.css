@@ -427,9 +427,10 @@ a.menu-item:hover > .title {
 
 /** TEST пытаемся додумать каким должен быть размеров заголовок и текст **/
 
-h1 {
-  margin: 26px 0 0 0;
-  padding: 0;
+h1:not(.title),
+h2:not(.title),
+h4:not(.title) {
+  margin: 16px 0;
 
   color: var(--color-main);
   font-weight: 400;
