@@ -101,7 +101,7 @@ body {
   left: 0;
 
   width: 100%;
-  height: 100%;
+  height: 106%;
 
   background: url('../images/background.png') no-repeat center center/contain;
 
@@ -151,7 +151,7 @@ body {
   padding: 5px 10px;
 
   font-size: 14px;
-  line-height: 17px;
+  line-height: 16px;
   text-transform: uppercase;
 
   column-span: all;
@@ -329,7 +329,7 @@ a.menu-item:hover > .title {
 }
 
 .image-title {
-  padding-bottom: 30px;
+  padding-bottom: 28px;
 }
 
 .image-text {
