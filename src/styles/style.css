@@ -86,7 +86,7 @@ body {
 }
 
 .content-fix-padding {
-  padding-bottom: 83px; /* perfect pixel image block */
+  padding-bottom: 84px; /* perfect pixel image block */
 }
 
 .bg-questions {
@@ -319,7 +319,7 @@ a.menu-item:hover > .title {
 .image-shadow {
   vertical-align: middle;
 
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.15);
 }
 
 .image-subtitle {
